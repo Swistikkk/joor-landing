@@ -235,3 +235,281 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 165px;
+  padding: 25px;
+
+  &__text {
+    text-align: right;
+    font-size: 22px;
+    max-width: 445px;
+  }
+
+  &__phone {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  &__logo {
+    height: 35px;
+  }
+
+  &__button {
+    color: #fff;
+    background: #94bb1d;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+}
+
+.top-banner {
+  padding: 170px 0;
+  position: relative;
+  height: 630px;
+  overflow: hidden;
+
+  &__wrapper {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 5;
+    position: relative;
+  }
+
+  &__title {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+  }
+
+  &__description {
+    font-size: 27px;
+    margin: 0;
+    color: #fff;
+  }
+
+  &__input {
+    padding: 20px;
+    width: 324px;
+    height: 55px;
+    margin-bottom: 5px;
+  }
+
+  &__button {
+    height: 55px;
+    padding: 17px 0;
+    color: #fff;
+    background: #e88512;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  &__form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__video {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.page-title {
+  font-size: 48px;
+  color: #000;
+  margin: 105px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.how-it-looks {
+  text-align: center;
+}
+
+.how-we-create {
+
+  &__items {
+    max-width: 750px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__item {
+    max-width: 205px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__circle {
+    width: 100px;
+    height: 100px;
+    background: #94bb1d;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  &__text {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+
+
+.main-footer {
+  background: #cdcdcd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+
+  &__logo {
+    height: 37px;
+  }
+
+  &__phone {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.how-it-will-be {
+
+  &__items {
+    display: flex;
+    max-width: 940px;
+    margin: 0 auto 25px;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__photo {
+    width: 300px;
+    height: 300px;
+    background: #cdcdcd;
+
+    &_new {
+      background: #94bb20;
+    }
+  }
+
+  &__text {
+    margin-top: 15px;
+  }
+
+  &__action {
+    text-align: center;
+    margin: 40px 0 65px;
+  }
+
+
+  &__button {
+    background: #eb8316;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 33px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
+
+}
+
+.what-i-buy {
+  &__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0 80px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 196px;
+  }
+
+  &__text {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+}
+
+.how-it-helps {
+  &__item {
+    width: 265px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.foundation {
+  padding: 35px 70px;
+
+  &__title {
+    font-size: 24px;
+    max-width: 705px;
+    margin: 10px 0 30px;
+  }
+
+  &__description {
+    font-size: 20px;
+    color: #55575b;
+    max-width: 790px;
+  }
+}
+
+
+
+
+
+
+
+
+
+ .m {
+  color: red;
+ }

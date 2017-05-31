@@ -6,50 +6,272 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Joor.me</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
     <header class="top-header">
-        <div>Logo</div>
         <div>
-            <p>+7 (499) 116-00-40</p>
-            <button>Написать письмо</button>
+          <img class="top-header__logo" src="img/logo.png" alt="Joor.me">
+        </div>
+        <div class="top-header__text">
+          <p>
+            Электронные корпоративные журналы
+            для малого и среднего бизнеса
+          </p>
+        </div>
+        <div>
+            <p class="top-header__phone">+7 (499) 116-00-40</p>
+            <button class="top-header__button">Написать письмо</button>
         </div>
     </header>
     <div class="top-banner">
-        <h1>Перестаньте терять клиентов!</h1>
-        <p>Взаймодействуйте с клиентами, развивайте и укрепляйте ваши отношения!</p>
-        <form>
-            <input type="text" name="name" placeholder="Ваше имя" />
-            <input type="text" name="email" placeholder="Ваше email" />
-            <button type="submit">перестать терять клиентов</button>
-        </form>
-        <!--<video src="video/video_top_banner.mov" autoplay loop></video>-->
+        <div class="top-banner__wrapper">
+          <h1 class="top-banner__title">Перестаньте терять клиентов!</h1>
+          <p class="top-banner__description">Взаймодействуйте с клиентами, развивайте и укрепляйте ваши отношения!</p>
+          <form class="top-banner__form">
+              <div>
+                <input class="top-banner__input" type="text" name="name" placeholder="Ваше имя" />
+                <input class="top-banner__input" type="text" name="email" placeholder="Ваше email" />
+                <input class="top-banner__input" type="text" name="phone" placeholder="Ваше телефон" />
+              </div>
+              <button class="top-banner__button" type="submit">перестать терять клиентов</button>
+          </form>
+        </div>
+        <video class="top-banner__video" src="video/video_top_banner.mov" autoplay loop></video>
     </div>
-    <div>
-        <h3>
+
+    <div class="foundation">
+        <h3 class="foundation__title">
             Фундментальные стабильности любого бизнеса - это постоянные клиенты.
             Они лояльны, искренне любят ваш продукт, доверяют вам и никогда
             не уйдут к конкурентам.
         </h3>
-        <p>
+        <p class="foundation__description">
             Электронный корпоративный журнла - это мозный инструмент, который
             поможет укрепить отношения с клиентами, увеличить количество
             повторных продаж и повысить узнаваемость бренда.
         </p>
-        <p>
+        <p class="foundation__description">
             Наличие у компании собственного корпоративного медиа, формирует успешный
             образ в деловой среде, служит потверждением того, что организация его
             выпускающая, серьезно подходит к ведению бизнеса.
         </p>
     </div>
-    <div>
-        <h2>Как электронные корпоративные журналы помогают бизнесу</h2>
+
+    <div class="how-it-helps">
+        <h2 class="page-title">Как электронные корпоративные журналы помогают бизнесу</h2>
+
+        <div class="what-i-buy__items">
+
+          <div class="what-i-buy__item how-it-helps__item">
+            <img src="img/ico_4.png" alt="">
+            <p class="what-i-buy__text">Повышают лояльность среди уже существующих клиентов </p>
+          </div>
+
+          <div class="what-i-buy__item how-it-helps__item">
+            <img src="img/ico_5.png" alt="">
+            <p class="what-i-buy__text">Увеличивают количество повторных продаж и среднюю сумму чека</p>
+          </div>
+
+          <div class="what-i-buy__item how-it-helps__item">
+            <img src="img/ico_6.png" alt="">
+            <p class="what-i-buy__text">Гарантируют публикации всех Ваших материалов (в отличии от сторонних СМИ)</p>
+          </div>
+
+        </div>
+
+        <div class="what-i-buy__items">
+
+          <div class="what-i-buy__item how-it-helps__item">
+            <img src="img/ico_3.png" alt="">
+            <p class="what-i-buy__text">Сокращают затраты на содержание персонала и создание продукта</p>
+          </div>
+
+          <div class="what-i-buy__item how-it-helps__item">
+            <img src="img/ico_2.png" alt="">
+            <p class="what-i-buy__text">Помогают освещать важнейшие отраслевые события</p>
+          </div>
+
+          <div class="what-i-buy__item how-it-helps__item">
+            <img src="img/ico_1.png" alt="">
+            <p class="what-i-buy__text">Повышение узнаваемости компании на рынке и привлечение новых лидов</p>
+          </div>
+
+        </div>
     </div>
-    <div>
-        <h2>Как это выглядит</h2>
+
+    <div class="how-it-looks">
+        <h2 class="page-title">Как это выглядит</h2>
+        <div>
+          <img class="" src="img/ios.png" alt="Как это выглядит">
+        </div>
     </div>
-    <div>
-        <h2>Как мы создаем для вас электронный копроративный журнал</h2>
+    <div class="how-we-create">
+        <h2 class="page-title">Как мы создаем для вас электронный копроративный журнал</h2>
+
+        <div class="how-we-create__items">
+          <div class="how-we-create__item">
+            <div class="how-we-create__circle">
+              1
+            </div>
+            <p class="how-we-create__text">
+              Вы заполняете бриф-заявку и отправляете ее нам
+            </p>
+          </div>
+          <div class="how-we-create__item">
+            <div class="how-we-create__circle">
+              2
+            </div>
+            <p class="how-we-create__text">
+              Креативный менеджер разрабатывает концепцию будущего проекта
+            </p>
+          </div>
+        </div>
+
+        <div class="how-we-create__items">
+          <div class="how-we-create__item">
+            <div class="how-we-create__circle">
+              3
+            </div>
+            <p class="how-we-create__text">
+              Дизайнер рисует макет, редактор работает над контентом
+            </p>
+          </div>
+          <div class="how-we-create__item">
+            <div class="how-we-create__circle">
+              4
+            </div>
+            <p class="how-we-create__text">
+              Готовый журнал публикуется на площадке и готов к продвижению
+            </p>
+          </div>
+        </div>
+
     </div>
+
+    <div class="how-it-will-be">
+      <h2 class="page-title">Как мы создаем для вас электронный копроративный журнал</h2>
+
+      <div class="how-it-will-be__items">
+
+        <div class="how-it-will-be__item">
+          <div class="how-it-will-be__photo"></div>
+          <p class="how-it-will-be__text">
+            Салон красоты “Багира”
+          </p>
+        </div>
+
+        <div class="how-it-will-be__item">
+          <div class="how-it-will-be__photo"></div>
+          <p class="how-it-will-be__text">
+            ОАО “Газпром”
+          </p>
+        </div>
+
+        <div class="how-it-will-be__item">
+          <div class="how-it-will-be__photo"></div>
+          <p class="how-it-will-be__text">
+            Фитнес-клуб “Супермен”
+          </p>
+        </div>
+
+      </div>
+
+      <div class="how-it-will-be__items">
+
+        <div class="how-it-will-be__item">
+          <div class="how-it-will-be__photo"></div>
+          <p class="how-it-will-be__text">
+            Салон красоты “Багира”
+          </p>
+        </div>
+
+        <div class="how-it-will-be__item">
+          <div class="how-it-will-be__photo"></div>
+          <p class="how-it-will-be__text">
+            ОАО “Газпром”
+          </p>
+        </div>
+
+        <div class="how-it-will-be__item">
+          <div class="how-it-will-be__photo how-it-will-be__photo_new"></div>
+          <p class="how-it-will-be__text">
+            Создать свой
+          </p>
+        </div>
+
+      </div>
+
+      <div class="how-it-will-be__action">
+        <button class="how-it-will-be__button">Хочу такой же!</button>
+      </div>
+
+    </div>
+
+    <div class="what-i-buy">
+      <h2 class="page-title">Что входит в стоимость</h2>
+
+      <div class="what-i-buy__items">
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_7.png" alt="">
+          <p class="what-i-buy__text">Помощь в разработке концепции медиаресурса</p>
+        </div>
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_13.png" alt="">
+          <p class="what-i-buy__text">Профессиональная редактура текстов</p>
+        </div>
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_14.png" alt="">
+          <p class="what-i-buy__text">Дизайн и верстка электронного журнала</p>
+        </div>
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_8.png" alt="">
+          <p class="what-i-buy__text">Публикация проекта на ресурсе JOOR.me</p>
+        </div>
+
+      </div>
+
+      <div class="what-i-buy__items">
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_9.png" alt="">
+          <p class="what-i-buy__text">Создание адаптивного шаблона письма</p>
+        </div>
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_11.png" alt="">
+          <p class="what-i-buy__text">Текст для email-расылки и текст для SMS</p>
+        </div>
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_12.png" alt="">
+          <p class="what-i-buy__text">Email-рассылка по базе адресов</p>
+        </div>
+
+        <div class="what-i-buy__item">
+          <img src="img/ico_10.png" alt="">
+          <p class="what-i-buy__text">SMS-рассылка по базе абонентов</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <footer class="main-footer">
+      <div>
+        <img src="img/logo_white.png" alt="Joor.me" class="main-footer__logo">
+      </div>
+      <div>
+        <a href="/" class="main-footer__phone">
+          +7 (499) 116-00-40
+        </a>
+      </div>
+    </footer>
 </body>
 </html>

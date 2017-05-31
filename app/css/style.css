@@ -224,3 +224,205 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */ }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 165px;
+  padding: 25px; }
+  .top-header__text {
+    text-align: right;
+    font-size: 22px;
+    max-width: 445px; }
+  .top-header__phone {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right; }
+  .top-header__logo {
+    height: 35px; }
+  .top-header__button {
+    color: #fff;
+    background: #94bb1d;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-top: 10px; }
+
+.top-banner {
+  padding: 170px 0;
+  position: relative;
+  height: 630px;
+  overflow: hidden; }
+  .top-banner__wrapper {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 5;
+    position: relative; }
+  .top-banner__title {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0; }
+  .top-banner__description {
+    font-size: 27px;
+    margin: 0;
+    color: #fff; }
+  .top-banner__input {
+    padding: 20px;
+    width: 324px;
+    height: 55px;
+    margin-bottom: 5px; }
+  .top-banner__button {
+    height: 55px;
+    padding: 17px 0;
+    color: #fff;
+    background: #e88512;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase; }
+  .top-banner__form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; }
+  .top-banner__video {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+.page-title {
+  font-size: 48px;
+  color: #000;
+  margin: 105px 0;
+  text-align: center;
+  text-transform: uppercase; }
+
+.how-it-looks {
+  text-align: center; }
+
+.how-we-create__items {
+  max-width: 750px;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.how-we-create__item {
+  max-width: 205px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.how-we-create__circle {
+  width: 100px;
+  height: 100px;
+  background: #94bb1d;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 40px; }
+
+.how-we-create__text {
+  font-size: 16px;
+  margin-top: 15px; }
+
+.main-footer {
+  background: #cdcdcd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px; }
+  .main-footer__logo {
+    height: 37px; }
+  .main-footer__phone {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none; }
+
+.how-it-will-be__items {
+  display: flex;
+  max-width: 940px;
+  margin: 0 auto 25px;
+  justify-content: space-between; }
+
+.how-it-will-be__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.how-it-will-be__photo {
+  width: 300px;
+  height: 300px;
+  background: #cdcdcd; }
+  .how-it-will-be__photo_new {
+    background: #94bb20; }
+
+.how-it-will-be__text {
+  margin-top: 15px; }
+
+.how-it-will-be__action {
+  text-align: center;
+  margin: 40px 0 65px; }
+
+.how-it-will-be__button {
+  background: #eb8316;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 33px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer; }
+
+.what-i-buy__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0 80px; }
+
+.what-i-buy__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 196px; }
+
+.what-i-buy__text {
+  margin-top: 15px;
+  font-size: 18px; }
+
+.how-it-helps__item {
+  width: 265px;
+  align-items: center;
+  justify-content: flex-start; }
+
+.foundation {
+  padding: 35px 70px; }
+  .foundation__title {
+    font-size: 24px;
+    max-width: 705px;
+    margin: 10px 0 30px; }
+  .foundation__description {
+    font-size: 20px;
+    color: #55575b;
+    max-width: 790px; }
+
+.m {
+  color: red; }
