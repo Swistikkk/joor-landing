@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc4afcf3-7790-48cf-beba-701a9f330279" name="Default" comment="" />
+    <list default="true" id="cc4afcf3-7790-48cf-beba-701a9f330279" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/style.scss" afterPath="$PROJECT_DIR$/app/scss/style.scss" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +24,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,47 +39,44 @@
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="109">
+              <caret line="190" column="69" lean-forward="false" selection-start-line="190" selection-start-column="69" selection-end-line="190" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-              <folding />
-            </state>
+      <file leaf-file-name="landing_ecojoor.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing_ecojoor.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2601">
-              <caret line="236" column="1" lean-forward="false" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+            <state relative-caret-position="477">
+              <caret line="472" column="5" lean-forward="true" selection-start-line="472" selection-start-column="5" selection-end-line="472" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -80,14 +84,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>footer</find>
+      <find>how-it-will-be</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/app/scss/style.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -101,10 +115,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="480" />
-    <option name="y" value="255" />
-    <option name="width" value="1050" />
-    <option name="height" value="704" />
+    <option name="x" value="256" />
+    <option name="y" value="580" />
+    <option name="width" value="1352" />
+    <option name="height" value="893" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -131,6 +145,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joor-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -186,6 +268,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -212,6 +300,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cc4afcf3-7790-48cf-beba-701a9f330279" name="Default" comment="" />
@@ -220,22 +311,24 @@
       <option name="presentableId" value="Default" />
       <updated>1496059438762</updated>
       <workItem from="1496059440166" duration="8700000" />
+      <workItem from="1496220909751" duration="14683000" />
+      <workItem from="1496244182134" duration="1628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8700000" />
+    <option name="totallyTimeSpent" value="25011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="480" y="255" width="1050" height="704" extended-state="0" />
+    <frame x="256" y="580" width="1352" height="893" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5549077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13448535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33416772" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -281,18 +374,47 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="236" column="1" lean-forward="false" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing_ecojoor.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15157">
+          <caret line="659" column="2" lean-forward="false" selection-start-line="659" selection-start-column="4" selection-end-line="672" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -315,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="322">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -324,7 +446,149 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <marker date="1496244952930" expanded="true" signature="4895:4944" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="4961:4987" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5012:5167" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5191:5358" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5384:5608" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5632:5678" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5693:5810" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5832:5853" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5876:5967" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5992:6089" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6113:6209" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6234:6293" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6323:6351" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6375:6398" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6424:6472" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6498:6644" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6658:6684" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="7888:7995" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8016:8162" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8183:8229" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8245:8271" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8294:8373" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8387:8508" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8606:8677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5428">
+          <caret line="236" column="1" lean-forward="false" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <marker date="1496244952930" expanded="true" signature="4895:4944" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="4961:4987" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5012:5167" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5191:5358" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5384:5608" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5632:5678" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5693:5810" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5832:5853" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5876:5967" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="5992:6089" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6113:6209" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6234:6293" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6323:6351" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6375:6398" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6424:6472" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6498:6644" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="6658:6684" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="7888:7995" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8016:8162" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8183:8229" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8245:8271" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8294:8373" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8387:8508" ph="{...}" />
+            <marker date="1496244952930" expanded="true" signature="8606:8677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.~lock.TZ.docx#">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2192">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing_ecojoor.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="472" column="5" lean-forward="true" selection-start-line="472" selection-start-column="5" selection-end-line="472" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="190" column="69" lean-forward="false" selection-start-line="190" selection-start-column="69" selection-end-line="190" selection-end-column="69" />
           <folding />
         </state>
       </provider>

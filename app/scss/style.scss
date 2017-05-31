@@ -241,12 +241,34 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.activePopup {
+  background: #000;
+  position: fixed;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 100;
+  display: block;
+}
+
 .top-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 165px;
-  padding: 25px;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  background: #fff;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
   &__text {
     text-align: right;
@@ -258,6 +280,9 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+    text-decoration: none;
+    display: block;
+    color: #000;
   }
 
   &__logo {
@@ -272,6 +297,8 @@ body {
     padding: 10px 50px;
     cursor: pointer;
     margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
   }
 }
 
@@ -280,6 +307,7 @@ body {
   position: relative;
   height: 630px;
   overflow: hidden;
+  margin-top: 120px;
 
   &__wrapper {
     max-width: 980px;
@@ -334,25 +362,40 @@ body {
     top: 0;
     width: 100%;
   }
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    z-index: 5;
+    left: 0;
+    background: #000;
+    opacity: 0.2;
+    height: 100%;
+  }
 }
 
 .page-title {
   font-size: 48px;
   color: #000;
-  margin: 105px 0;
+  padding: 70px 0;
   text-align: center;
   text-transform: uppercase;
 }
 
 .how-it-looks {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .how-we-create {
+  background: #EBEDEC;
 
   &__items {
     max-width: 750px;
-    margin: 0 auto 40px;
+    margin: 0 auto;
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -390,10 +433,16 @@ body {
 
 .main-footer {
   background: #cdcdcd;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 25px;
+
+  &__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 
   &__logo {
     height: 37px;
@@ -416,11 +465,29 @@ body {
     justify-content: space-between;
   }
 
+  &_flex_start {
+    justify-content: flex-start;
+
+    .how-it-will-be__item:last-child {
+      margin-left: 20px;
+    }
+  }
+
   &__item {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+  }
+
+  &__plus {
+    font-size: 90px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
   }
 
   &__photo {
@@ -430,6 +497,10 @@ body {
 
     &_new {
       background: #94bb20;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -456,11 +527,15 @@ body {
 }
 
 .what-i-buy {
+  background: #EBEDEC;
+
   &__items {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px 0 80px;
+    padding: 50px 0 80px;
   }
 
   &__item {
@@ -479,6 +554,8 @@ body {
 }
 
 .how-it-helps {
+  background: #EBEDEC;
+
   &__item {
     width: 265px;
     align-items: center;
@@ -487,7 +564,17 @@ body {
 }
 
 .foundation {
-  padding: 35px 70px;
+  padding: 35px 70px 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 1420px;
+  width: 100%;
+  margin: 0 auto;
+
+  &__image {
+    align-self: flex-end;
+    margin-bottom: -5px;
+  }
 
   &__title {
     font-size: 24px;
@@ -503,13 +590,144 @@ body {
 }
 
 
+.support {
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  margin: 0 auto -4px;
 
+  &__title {
+    font-size: 48px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
 
+  &__description {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0 40px;
+  }
 
+  &__form {
+    max-width: 600px;
+    width: 100%;
+    align-self: center;
+  }
 
+  &__feedback {
+    display: flex;
+    flex-direction: column;
+  }
 
+  &__input {
+    height: 55px;
+    padding: 20px;
+    border: 1px solid #FFC347;
+    background: #E8EAE9;
+  }
 
+  &__textarea {
+    padding: 20px;
+    resize: none;
+    margin: 15px 0;
+    border: 1px solid #FFC347;
+    background: #E8EAE9;
+    height: 210px;
+  }
 
- .m {
-  color: red;
- }
+  &__button {
+    height: 55px;
+    border: none;
+    padding: 15px 0;
+    background: #F57824;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.main-popup {
+  padding: 30px;
+  display: inline-block;
+  z-index: 4000;
+  width: 290px;
+  overflow: hidden;
+  position: fixed;
+  top: 25%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  box-shadow: 1px 1px 13px -4px #000;
+  background: #fff;
+  visibility: hidden;
+
+  &--active {
+    visibility: visible;
+  }
+
+  //&-background {
+  //  width: 100%;
+  //  height: 100%;
+  //  background: #000;
+  //  opacity: 0.5;
+  //  z-index: 100;
+  //  position: fixed;
+  //  top: 0;
+  //  visibility: hidden;
+  //
+  //  &--active {
+  //    visibility: visible;
+  //  }
+  //}
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  input {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background: #f2f2f2;
+    color: #201f26;
+    font-family: Roboto, Arial;
+    padding-left: 20px;
+    width: 230px;
+    margin-bottom: 10px;
+    display: block;
+    outline: none;
+    height: 39px;
+
+    &.error {
+      border: 2px solid #ef3737;
+    }
+  }
+
+  button {
+    border: none;
+    outline: none;
+    background: #94bb1d;
+    display: block;
+    width: 100%;
+    height: 39px;
+    border-radius: 2px;
+
+    &:hover {
+      background: darken(#94bb1d, 10%);
+    }
+
+    span {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      display: inline-block;
+      line-height: 39px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -11,19 +11,21 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-    <header class="top-header">
-        <div>
-          <img class="top-header__logo" src="img/logo.png" alt="Joor.me">
-        </div>
-        <div class="top-header__text">
-          <p>
-            Электронные корпоративные журналы
-            для малого и среднего бизнеса
-          </p>
-        </div>
-        <div>
-            <p class="top-header__phone">+7 (499) 116-00-40</p>
-            <button class="top-header__button">Написать письмо</button>
+    <header class="top-header" id="top-header">
+        <div class="top-header__wrapper">
+            <div>
+                <img class="top-header__logo" src="img/logo.png" alt="Joor.me">
+            </div>
+            <div class="top-header__text">
+                <p>
+                    Электронные корпоративные журналы
+                    для малого и среднего бизнеса
+                </p>
+            </div>
+            <div>
+                <a href="tel:+74991160040" class="top-header__phone">+7 (499) 116-00-40</a>
+                <a href="#support" class="top-header__button">Написать письмо</a>
+            </div>
         </div>
     </header>
     <div class="top-banner">
@@ -43,21 +45,26 @@
     </div>
 
     <div class="foundation">
-        <h3 class="foundation__title">
-            Фундментальные стабильности любого бизнеса - это постоянные клиенты.
-            Они лояльны, искренне любят ваш продукт, доверяют вам и никогда
-            не уйдут к конкурентам.
-        </h3>
-        <p class="foundation__description">
-            Электронный корпоративный журнла - это мозный инструмент, который
-            поможет укрепить отношения с клиентами, увеличить количество
-            повторных продаж и повысить узнаваемость бренда.
-        </p>
-        <p class="foundation__description">
-            Наличие у компании собственного корпоративного медиа, формирует успешный
-            образ в деловой среде, служит потверждением того, что организация его
-            выпускающая, серьезно подходит к ведению бизнеса.
-        </p>
+        <div class="foundation__content">
+            <h3 class="foundation__title">
+                Фундментальные стабильности любого бизнеса - это постоянные клиенты.
+                Они лояльны, искренне любят ваш продукт, доверяют вам и никогда
+                не уйдут к конкурентам.
+            </h3>
+            <p class="foundation__description">
+                Электронный корпоративный журнла - это мозный инструмент, который
+                поможет укрепить отношения с клиентами, увеличить количество
+                повторных продаж и повысить узнаваемость бренда.
+            </p>
+            <p class="foundation__description">
+                Наличие у компании собственного корпоративного медиа, формирует успешный
+                образ в деловой среде, служит потверждением того, что организация его
+                выпускающая, серьезно подходит к ведению бизнеса.
+            </p>
+        </div>
+        <div class="foundation__image">
+            <img src="img/people.png" alt="">
+        </div>
     </div>
 
     <div class="how-it-helps">
@@ -156,56 +163,51 @@
 
       <div class="how-it-will-be__items">
 
-        <div class="how-it-will-be__item">
-          <div class="how-it-will-be__photo"></div>
+        <a href="https://joor.me/magazine/medsi/1/1" target="_blank" class="how-it-will-be__item">
+            <img src="img/1.jpg" alt="" class="how-it-will-be__photo" />
           <p class="how-it-will-be__text">
-            Салон красоты “Багира”
+              МЕДСИ
           </p>
-        </div>
+        </a>
 
-        <div class="how-it-will-be__item">
-          <div class="how-it-will-be__photo"></div>
+        <a href="https://joor.me/magazine/klub-krasoty/1/1" target="_blank" class="how-it-will-be__item">
+            <img src="img/2.jpg" alt="" class="how-it-will-be__photo" />
           <p class="how-it-will-be__text">
-            ОАО “Газпром”
+              Клуб красоты
           </p>
-        </div>
+        </a>
 
-        <div class="how-it-will-be__item">
-          <div class="how-it-will-be__photo"></div>
+        <a href="https://joor.me/magazine/bezviz/1/1" target="_blank" class="how-it-will-be__item">
+            <img src="img/3.jpg" alt="" class="how-it-will-be__photo" />
           <p class="how-it-will-be__text">
-            Фитнес-клуб “Супермен”
+              Бюро путешествий BEZVIZ
           </p>
-        </div>
+        </a>
 
       </div>
 
-      <div class="how-it-will-be__items">
+      <div class="how-it-will-be__items how-it-will-be_flex_start">
 
-        <div class="how-it-will-be__item">
-          <div class="how-it-will-be__photo"></div>
+        <a href="https://joor.me/magazine/atlet/1/1" target="_blank" class="how-it-will-be__item">
+            <img src="img/4.jpg" alt="" class="how-it-will-be__photo" />
           <p class="how-it-will-be__text">
-            Салон красоты “Багира”
+              Фитнес-клуб «Атлет»
           </p>
-        </div>
+        </a>
 
-        <div class="how-it-will-be__item">
-          <div class="how-it-will-be__photo"></div>
-          <p class="how-it-will-be__text">
-            ОАО “Газпром”
-          </p>
-        </div>
-
-        <div class="how-it-will-be__item">
-          <div class="how-it-will-be__photo how-it-will-be__photo_new"></div>
+        <a href="" class="how-it-will-be__item" id="add-new-magazine">
+          <div class="how-it-will-be__photo how-it-will-be__photo_new">
+              <span class="how-it-will-be__plus">+</span>
+          </div>
           <p class="how-it-will-be__text">
             Создать свой
           </p>
-        </div>
+        </a>
 
       </div>
 
       <div class="how-it-will-be__action">
-        <button class="how-it-will-be__button">Хочу такой же!</button>
+        <button class="how-it-will-be__button" id="wanna-like-this">Хочу такой же!</button>
       </div>
 
     </div>
@@ -262,16 +264,55 @@
       </div>
     </div>
 
+    <div class="support" id="support">
+        <div class="support__form">
+            <h3 class="support__title">Остались вопросы?</h3>
+            <p class="support__description">
+                Задайте их нашему менеджеру
+                </br>
+                и получите ответ в течение 15 минут!
+            </p>
+            <form class="support__feedback">
+                <input class="support__input" type="text" name="phone" placeholder="Введите ваш телефон"/>
+                <textarea class="support__textarea" placeholder="Введите ваш вопрос"></textarea>
+                <button class="support__button" type="submit">Получить ответ</button>
+            </form>
+        </div>
+        <div>
+            <img src="img/vopros.png" alt="">
+        </div>
+    </div>
+
 
     <footer class="main-footer">
-      <div>
-        <img src="img/logo_white.png" alt="Joor.me" class="main-footer__logo">
-      </div>
-      <div>
-        <a href="/" class="main-footer__phone">
-          +7 (499) 116-00-40
-        </a>
+      <div class="main-footer__wrapper">
+          <div>
+              <img src="img/logo_white.png" alt="Joor.me" class="main-footer__logo">
+          </div>
+          <div>
+              <a href="/" class="main-footer__phone">
+                  +7 (499) 116-00-40
+              </a>
+          </div>
       </div>
     </footer>
+
+
+    <div class="main-popup" id="main-popup">
+        <div class="main-popup-wrapper">
+            <form class="main-form" method="post">
+                <h3 class="title">Оставьте контакты в форме ниже</h3>
+                <input type="text" name="name" class="js-name" placeholder="Имя">
+                <input type="text" name="phone" class="js-number" placeholder="Телефон">
+                <input type="text" name="email" class="js-email" placeholder="E-mail">
+                <button class="">
+                    <span>Получить свой журнал</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="main-popup-background"></div>
+ <script src="js/main.js"></script>
 </body>
 </html>
