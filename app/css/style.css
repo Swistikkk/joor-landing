@@ -276,6 +276,8 @@ body {
     margin-top: 10px;
     text-decoration: none;
     display: inline-block; }
+  .top-header__contacts {
+    text-align: right; }
 
 .top-banner {
   padding: 170px 0;
