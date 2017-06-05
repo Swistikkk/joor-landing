@@ -527,6 +527,9 @@ body {
   text-decoration: none;
   cursor: pointer;
   color: #000; }
+  .how-it-will-be__item:hover {
+    text-decoration: none;
+    color: #000; }
   @media only screen and (min-width: 767px) and (max-width: 1199px) {
     .how-it-will-be__item {
       margin-bottom: 35px; } }
@@ -734,6 +737,28 @@ body {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer; }
+
+.thanks-popup {
+  padding: 30px;
+  display: inline-block;
+  z-index: 4000;
+  width: 290px;
+  overflow: hidden;
+  position: fixed;
+  top: 25%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  box-shadow: 1px 1px 13px -4px #000;
+  background: #fff;
+  text-align: center;
+  visibility: hidden; }
+  .thanks-popup--active {
+    visibility: visible; }
+  .thanks-popup h2 {
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 20px; }
 
 .main-popup {
   padding: 30px;

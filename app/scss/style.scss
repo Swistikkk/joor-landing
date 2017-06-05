@@ -634,6 +634,11 @@ body {
     cursor: pointer;
     color: #000;
 
+    &:hover {
+      text-decoration: none;
+      color: #000;
+    }
+
     @include adaptive(pad) {
       margin-bottom: 35px;
     }
@@ -923,6 +928,33 @@ body {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+  }
+}
+
+.thanks-popup {
+  padding: 30px;
+  display: inline-block;
+  z-index: 4000;
+  width: 290px;
+  overflow: hidden;
+  position: fixed;
+  top: 25%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  box-shadow: 1px 1px 13px -4px #000;
+  background: #fff;
+  text-align: center;
+  visibility: hidden;
+
+  &--active {
+    visibility: visible;
+  }
+
+  h2 {
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 20px;
   }
 }
 

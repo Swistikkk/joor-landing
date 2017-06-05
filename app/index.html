@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="libs/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
 </head>
 <body>
     <header class="top-header" id="top-header">
@@ -41,7 +44,7 @@
                   <div>
                       <input class="top-banner__input" type="text" name="name" placeholder="Ваше имя" />
                       <input class="top-banner__input" type="text" name="email" placeholder="Ваше email" />
-                      <input class="top-banner__input" type="text" name="phone" placeholder="Ваше телефон" />
+                      <input class="top-banner__input" type="text" name="phone" placeholder="Ваше телефон" id="js-phone"/>
                   </div>
                   <button class="top-banner__button" type="submit">перестать терять клиентов</button>
               </form>
@@ -300,7 +303,7 @@
                     и получите ответ в течение 15 минут!
                 </p>
                 <form class="support__feedback">
-                    <input class="support__input" type="text" name="phone" placeholder="Введите ваш телефон"/>
+                    <input class="support__input" type="text" name="phone" placeholder="Введите ваш телефон" id="js-phone-footer"/>
                     <textarea class="support__textarea" placeholder="Введите ваш вопрос"></textarea>
                     <button class="support__button" type="submit">Получить ответ</button>
                 </form>
@@ -340,6 +343,9 @@
                 </button>
             </form>
         </div>
+    </div>
+
+    <div class="thanks-popup" id="thanks-popup">
     </div>
 
     <div class="main-popup-background"></div>
