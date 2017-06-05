@@ -44,23 +44,27 @@ backgroundPopup.addEventListener('click', function() {
 });
 
 popupForm.addEventListener('submit', function(event) {
-  if (this[0].value !== '' && this[1].value !== '' && this[2].value !== '') {
-    var formData = new FormData;
-    formData.append("name", this[0].value);
-    formData.append("phone", this[1].value);
-    formData.append("email", this[2].value);
-    fetch('https://joor.me/business', { method: 'post', body: formData }).then(function(response) {
-      if(response.success) {
-        openThanksPopup('<h2>Спасибо! <br /> Ваша заявка принята.</h2><p>Мы свяжемся с вами в ближайшее время.</p>');
-        setTimeout(closeThanksPopup(), 2000);
-      } else {
-        openThanksPopup('<h2>Ошибка!</h2><p>К сожалению ваш запрос не удалось отправить из-за неполадок на сервере, попробуйте позже</p>');
-        setTimeout(closeThanksPopup(), 2000);
-      }
-      this.reset();
-    });
+  if(!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(this[1].value)) {
+    alert('Введите правильный E-mail типа "myemail@email.com"');
   } else {
-    alert("Заполните пустые поля!");
+    if (this[0].value !== '' && this[1].value !== '' && this[2].value !== '') {
+      var formData = new FormData;
+      formData.append("name", this[0].value);
+      formData.append("phone", this[1].value);
+      formData.append("email", this[2].value);
+      fetch('https://joor.me/business', { method: 'post', body: formData }).then(function(response) {
+        if(response.success) {
+          openThanksPopup('<h2>Спасибо! <br /> Ваша заявка принята.</h2><p>Мы свяжемся с вами в ближайшее время.</p>');
+          setTimeout(closeThanksPopup(), 2000);
+        } else {
+          openThanksPopup('<h2>Ошибка!</h2><p>К сожалению ваш запрос не удалось отправить из-за неполадок на сервере, попробуйте позже</p>');
+          setTimeout(closeThanksPopup(), 2000);
+        }
+        this.reset();
+      });
+    } else {
+      alert("Заполните пустые поля!");
+    }
   }
 
   event.preventDefault();
@@ -68,24 +72,28 @@ popupForm.addEventListener('submit', function(event) {
 });
 
 topForm.addEventListener('submit', function(event) {
-  if (this[0].value !== '' && this[1].value !== '' && this[2].value !== '') {
-    var formData = new FormData;
-    formData.append("name", this[0].value);
-    formData.append("email", this[1].value);
-    formData.append("phone", this[2].value);
-
-    fetch('https://joor.me/business', { method: 'post', body: formData }).then(function(response) {
-      if(response.success) {
-        openThanksPopup('<h2>Спасибо! <br /> Ваша заявка принята.</h2><p>Мы свяжемся с вами в ближайшее время.</p>');
-        setTimeout(closeThanksPopup(), 2000);
-      } else {
-        openThanksPopup('<h2>Ошибка!</h2><p>К сожалению ваш запрос не удалось отправить из-за неполадок на сервере, попробуйте позже</p>');
-        setTimeout(closeThanksPopup(), 2000);
-      }
-      this.reset();
-    });
+  if(!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(this[1].value)) {
+    alert('Введите правильный E-mail типа "myemail@email.com"');
   } else {
-    alert("Заполните пустые поля!");
+    if (this[0].value !== '' && this[1].value !== '' && this[2].value !== '') {
+      var formData = new FormData;
+      formData.append("name", this[0].value);
+      formData.append("email", this[1].value);
+      formData.append("phone", this[2].value);
+
+      fetch('https://joor.me/business', { method: 'post', body: formData }).then(function(response) {
+        if(response.success) {
+          openThanksPopup('<h2>Спасибо! <br /> Ваша заявка принята.</h2><p>Мы свяжемся с вами в ближайшее время.</p>');
+          setTimeout(closeThanksPopup(), 2000);
+        } else {
+          openThanksPopup('<h2>Ошибка!</h2><p>К сожалению ваш запрос не удалось отправить из-за неполадок на сервере, попробуйте позже</p>');
+          setTimeout(closeThanksPopup(), 2000);
+        }
+        this.reset();
+      });
+    } else {
+      alert("Заполните пустые поля!");
+    }
   }
 
   event.preventDefault();
@@ -93,23 +101,27 @@ topForm.addEventListener('submit', function(event) {
 });
 
 bottomForm.addEventListener('submit', function(event) {
-  if (this[0].value !== '' && this[1].value !== '') {
-    var formData = new FormData;
-    formData.append("phone", this[0].value);
-    formData.append("text", this[1].value);
-    console.log(this[0].value, this[1].value);
-    fetch('https://joor.me/business', { method: 'post', body: formData }).then(function(response) {
-      if(response.success) {
-        openThanksPopup('<h2>Спасибо! <br /> Ваша заявка принята.</h2><p>Мы свяжемся с вами в ближайшее время.</p>');
-        setTimeout(closeThanksPopup(), 2000);
-      } else {
-        openThanksPopup('<h2>Ошибка!</h2><p>К сожалению ваш запрос не удалось отправить из-за неполадок на сервере, попробуйте позже</p>');
-        setTimeout(closeThanksPopup(), 2000);
-      }
-      this.reset();
-    });
+  if(!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(this[1].value)) {
+    alert('Введите правильный E-mail типа "myemail@email.com"');
   } else {
-    alert("Заполните пустые поля!");
+    if (this[0].value !== '' && this[1].value !== '') {
+      var formData = new FormData;
+      formData.append("phone", this[0].value);
+      formData.append("text", this[1].value);
+      console.log(this[0].value, this[1].value);
+      fetch('https://joor.me/business', { method: 'post', body: formData }).then(function(response) {
+        if(response.success) {
+          openThanksPopup('<h2>Спасибо! <br /> Ваша заявка принята.</h2><p>Мы свяжемся с вами в ближайшее время.</p>');
+          setTimeout(closeThanksPopup(), 2000);
+        } else {
+          openThanksPopup('<h2>Ошибка!</h2><p>К сожалению ваш запрос не удалось отправить из-за неполадок на сервере, попробуйте позже</p>');
+          setTimeout(closeThanksPopup(), 2000);
+        }
+        this.reset();
+      });
+    } else {
+      alert("Заполните пустые поля!");
+    }
   }
 
   event.preventDefault();
